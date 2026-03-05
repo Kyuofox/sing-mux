@@ -4,7 +4,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/metacubex/yamux"
+	"github.com/kyuofox/yamux"
 )
 
 type wrapStream struct {

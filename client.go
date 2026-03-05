@@ -5,13 +5,13 @@ import (
 	"net"
 	"sync"
 
-	"github.com/metacubex/sing/common"
-	"github.com/metacubex/sing/common/bufio"
-	E "github.com/metacubex/sing/common/exceptions"
-	"github.com/metacubex/sing/common/logger"
-	M "github.com/metacubex/sing/common/metadata"
-	N "github.com/metacubex/sing/common/network"
-	"github.com/metacubex/sing/common/x/list"
+	"github.com/kyuofox/sing/common"
+	"github.com/kyuofox/sing/common/bufio"
+	E "github.com/kyuofox/sing/common/exceptions"
+	"github.com/kyuofox/sing/common/logger"
+	M "github.com/kyuofox/sing/common/metadata"
+	N "github.com/kyuofox/sing/common/network"
+	"github.com/kyuofox/sing/common/x/list"
 )
 
 type Client struct {

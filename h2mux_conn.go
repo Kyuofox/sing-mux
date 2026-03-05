@@ -7,9 +7,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/metacubex/sing/common"
-	"github.com/metacubex/sing/common/baderror"
-	M "github.com/metacubex/sing/common/metadata"
+	"github.com/kyuofox/sing/common"
+	"github.com/kyuofox/sing/common/baderror"
+	M "github.com/kyuofox/sing/common/metadata"
 )
 
 type httpConn struct {

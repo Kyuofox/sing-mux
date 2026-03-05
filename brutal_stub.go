@@ -5,7 +5,7 @@ package mux
 import (
 	"net"
 
-	E "github.com/metacubex/sing/common/exceptions"
+	E "github.com/kyuofox/sing/common/exceptions"
 )
 
 const BrutalAvailable = false

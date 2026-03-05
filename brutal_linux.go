@@ -8,9 +8,9 @@ import (
 	"unsafe"
 	_ "unsafe"
 
-	"github.com/metacubex/sing/common"
-	"github.com/metacubex/sing/common/control"
-	E "github.com/metacubex/sing/common/exceptions"
+	"github.com/kyuofox/sing/common"
+	"github.com/kyuofox/sing/common/control"
+	E "github.com/kyuofox/sing/common/exceptions"
 
 	"golang.org/x/sys/unix"
 )

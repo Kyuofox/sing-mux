@@ -5,9 +5,9 @@ import (
 	"io"
 	"net"
 
-	E "github.com/metacubex/sing/common/exceptions"
-	"github.com/metacubex/smux"
-	"github.com/metacubex/yamux"
+	E "github.com/kyuofox/sing/common/exceptions"
+	"github.com/kyuofox/smux"
+	"github.com/kyuofox/yamux"
 )
 
 type abstractSession interface {

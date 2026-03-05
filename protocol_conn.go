@@ -3,9 +3,9 @@ package mux
 import (
 	"net"
 
-	"github.com/metacubex/sing/common/buf"
-	"github.com/metacubex/sing/common/bufio"
-	N "github.com/metacubex/sing/common/network"
+	"github.com/kyuofox/sing/common/buf"
+	"github.com/kyuofox/sing/common/bufio"
+	N "github.com/kyuofox/sing/common/network"
 )
 
 type protocolConn struct {

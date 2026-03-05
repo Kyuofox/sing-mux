@@ -6,11 +6,11 @@ import (
 	"math/rand"
 	"net"
 
-	"github.com/metacubex/sing/common"
-	"github.com/metacubex/sing/common/buf"
-	"github.com/metacubex/sing/common/bufio"
-	N "github.com/metacubex/sing/common/network"
-	"github.com/metacubex/sing/common/rw"
+	"github.com/kyuofox/sing/common"
+	"github.com/kyuofox/sing/common/buf"
+	"github.com/kyuofox/sing/common/bufio"
+	N "github.com/kyuofox/sing/common/network"
+	"github.com/kyuofox/sing/common/rw"
 )
 
 const kFirstPaddings = 16

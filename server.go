@@ -4,13 +4,13 @@ import (
 	"context"
 	"net"
 
-	"github.com/metacubex/sing/common/bufio"
-	"github.com/metacubex/sing/common/debug"
-	E "github.com/metacubex/sing/common/exceptions"
-	"github.com/metacubex/sing/common/logger"
-	M "github.com/metacubex/sing/common/metadata"
-	N "github.com/metacubex/sing/common/network"
-	"github.com/metacubex/sing/common/task"
+	"github.com/kyuofox/sing/common/bufio"
+	"github.com/kyuofox/sing/common/debug"
+	E "github.com/kyuofox/sing/common/exceptions"
+	"github.com/kyuofox/sing/common/logger"
+	M "github.com/kyuofox/sing/common/metadata"
+	N "github.com/kyuofox/sing/common/network"
+	"github.com/kyuofox/sing/common/task"
 )
 
 type ServiceHandler interface {

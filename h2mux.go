@@ -11,11 +11,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/metacubex/sing/common/atomic"
-	"github.com/metacubex/sing/common/buf"
-	"github.com/metacubex/sing/common/bufio"
-	E "github.com/metacubex/sing/common/exceptions"
-	N "github.com/metacubex/sing/common/network"
+	"github.com/kyuofox/sing/common/atomic"
+	"github.com/kyuofox/sing/common/buf"
+	"github.com/kyuofox/sing/common/bufio"
+	E "github.com/kyuofox/sing/common/exceptions"
+	N "github.com/kyuofox/sing/common/network"
 
 	"golang.org/x/net/http2"
 )
